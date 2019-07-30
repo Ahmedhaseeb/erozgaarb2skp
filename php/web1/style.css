@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #333;
+	color:fff;
+	height: 90px;
+	width: 100%;
+	/*padding: 20px;*/
+}
+
+
+header .logo{
+	float: left;
+	color:#fff;
+	font-size: 22px;
+	margin-top: 30px;
+}
+header .menu{
+	float: right;
+}
+
+
+.menu li{
+	float: left;
+	list-style-type: none;
+	padding-right: 10px;
+}
+.menu li a{
+	color:#fff;
+	text-decoration: none;
+}
