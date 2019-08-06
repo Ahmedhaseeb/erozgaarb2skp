@@ -7,6 +7,11 @@
 <body>
 	<?php 
 
+		$filename = $_GET['fname'];
+
+		$data = file_get_contents($filename);
+		echo $data;
+		die();
 		$fileName = "abc.txt";
 
 
