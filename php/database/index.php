@@ -1,5 +1,5 @@
 <?php 
-
+require_once "connection.php";
 
 //deleting record
 if(isset($_GET['del'])){

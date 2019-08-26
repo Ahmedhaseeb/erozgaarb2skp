@@ -6,7 +6,6 @@ if(isset($_POST['action']) AND $_POST['action'] == "login"){
 	$username = $_POST['username'];
 	$pwd = $_POST['password'];
 
-	
 	try {
 		$q = "SELECT * FROM userssss WHERE name = ? and password = ?";
 		$stmt = $db->prepare($q);
